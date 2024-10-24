@@ -5,7 +5,7 @@ theme: mint
 
 # Vererbung
 
-Präsentation von *Noah Tenk & Lanuel Lukic*
+Präsentation von *Noah Tenk & Manuel Lukic*
 
 ---
 Layout: image-right
@@ -33,9 +33,9 @@ Layout: image-right
 
 # Vererbung - Fähigkeiten
 
-- *1. Kentnisse der Programiersprache*
-- *2. Objektorientierte Programmierung (OOP)*
-- *3. Grundlagen der Vererbung*
+- *Kentnisse der Programiersprache*
+- *Objektorientierte Programmierung (OOP)*
+- *Grundlagen der Vererbung*
 
 ---
 
@@ -55,11 +55,32 @@ Layout: image-right
 
 # Wie verwende ich eine Vererbung?
 
-![Vererbung](images/vererbung1.png)
+```csharp
+try
+{
+ namespace Vererbung_1;
 
-![Vererbung](images/vererbung2.png)
+//Ein Buch ist ein Produkt
+//Der Doppelpunkt bedeutet "Vererbung" 
+//Unterklasse
 
-![Vererbung](images/vererbung3.png)
+public class Buch : Produkt
+{
+    protected string _isbn = string.Empty;
+
+    public override void Ausgabe()
+    {
+        Console.WriteLine($"Das Buch kostet EUR {_preis}.");
+        //base.Ausgabe();
+    }
+
+    public Buch(string isbn, double preis) : base(preis) 
+    {
+        _isbn = isbn;
+    }
+}
+```
+
 
 
 
