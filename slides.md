@@ -2,14 +2,14 @@
 theme: mint
 ---
 
----
-Layout: image-right
----
+
 # Vererbung
 
 Präsentation von *Noah Tenk & Lanuel Lukic*
 
-
+---
+Layout: image-right
+---
 # Inhaltsverzeichnis
 
 
