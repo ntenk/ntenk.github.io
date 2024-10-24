@@ -2,12 +2,14 @@
 theme: mint
 ---
 
-# Vererbung
-
-Präsentation von *Noah Tenk & Lanuel Lukic*
 ---
 Layout: image-right
 ---
+# Vererbung
+
+Präsentation von *Noah Tenk & Lanuel Lukic*
+
+
 # Inhaltsverzeichnis
 
 
@@ -28,6 +30,7 @@ Layout: image-right
 
 
 ---
+
 # Vererbung - Fähigkeiten
 
 - *1. Kentnisse der Programiersprache*
@@ -35,6 +38,7 @@ Layout: image-right
 - *3. Grundlagen der Vererbung*
 
 ---
+
 # Wann wendet man die Vererbung an
 
 - bei mehrmaliger Nutzung von Methoden
@@ -48,6 +52,7 @@ Layout: image-right
 - Effizient
 
 ---
+
 # Wie verwende ich eine Vererbung?
 
 ![Vererbung](images/vererbung1.png)
