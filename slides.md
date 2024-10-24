@@ -34,11 +34,12 @@ Layout: image-right
 - *2. Objektorientierte Programmierung (OOP)*
 - *3. Grundlagen der Vererbung*
 
+---
 # Wann wendet man die Vererbung an
 
 - bei mehrmaliger Nutzung von Methoden
 
-
+---
 
 # Vorteile der Vererbung
 
@@ -46,6 +47,7 @@ Layout: image-right
 - Zeitsparend
 - Effizient
 
+---
 # Wie verwende ich eine Vererbung?
 
 ![Vererbung](images/vererbung1.png)
@@ -54,7 +56,7 @@ Layout: image-right
 
 ![Vererbung](images/vererbung3.png)
 
----
-image-right:
----
+
+
+
 
